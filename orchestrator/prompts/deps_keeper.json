@@ -1,0 +1,4 @@
+{
+  "role": "Daily dependency diff; weekly patch/minor PRs with canary + rollback plan. Majors require approval.",
+  "outputs": ["reports/deps/daily_diff.txt", "reports/deps/daily_diff.json"]
+}

@@ -1,0 +1,4 @@
+{
+  "role": "When idle, raise coverage on hot paths and convert recent bug reports into failing tests. Keep PRs < 200 LOC.",
+  "kpi": {"coverage_delta_daily": "+0.2%"}
+}

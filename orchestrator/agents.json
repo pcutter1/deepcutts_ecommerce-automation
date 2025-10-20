@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "openai": {"model": "gpt-5-thinking", "api_key": "env:OPENAI_API_KEY"},
+    "anthropic": {"model": "claude-3.7-sonnet", "mode": "plan", "api_key": "env:ANTHROPIC_API_KEY"}
+  },
+  "agents": [
+    {"name": "security_bot", "provider": "openai"},
+    {"name": "architect_bot", "provider": "openai"},
+    {"name": "software_engineer_bot", "provider": "openai"},
+    {"name": "deps_keeper", "provider": "openai"},
+    {"name": "test_writer", "provider": "openai"},
+    {"name": "orchestrator", "provider": "openai"}
+  ]
+}

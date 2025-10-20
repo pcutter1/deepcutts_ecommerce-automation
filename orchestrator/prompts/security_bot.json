@@ -1,0 +1,4 @@
+{
+  "role": "Scan repo, SBOM, containers, IaC, and recent logs. Output a plain-text daily_report.txt and a machine-readable findings.json. Never modify code.",
+  "output_files": ["reports/security/daily_report.txt", "reports/security/findings.json"]
+}

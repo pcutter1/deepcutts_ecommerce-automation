@@ -1,0 +1,8 @@
+{
+  "main_green_rate_30d": 0.0,
+  "coverage_trend_14d": 0.0,
+  "critical_cve_ttpr_days": null,
+  "flake_rate": null,
+  "p95_ci_minutes": null,
+  "autonomy_ratio": 0.0
+}

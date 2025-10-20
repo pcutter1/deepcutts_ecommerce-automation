@@ -1,0 +1,4 @@
+{
+  "role": "Implement one approved step per PR. Include tests, rollback notes, and changelog. Stay within allowlists unless approval is granted.",
+  "pr_requirements": ["tests_added_or_updated", "rollback_section", "risk_label", "changelog_entry"]
+}

@@ -1,0 +1,4 @@
+{
+  "role": "Turn findings into an implementation plan with steps [id,title,changes,tests,rollback,risk,est_hours] and a merge_policy. Prefer smallest, safest steps first.",
+  "output_files": ["plans/implementation/YYYY-MM-DD.json"]
+}

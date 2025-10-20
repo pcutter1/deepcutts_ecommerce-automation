@@ -1,0 +1,9 @@
+{
+  "timezone": "UTC",
+  "jobs": [
+    {"name": "daily_security_scan", "cron": "0 8 * * *"},
+    {"name": "daily_deps_diff", "cron": "30 9 * * *"},
+    {"name": "hourly_sre_watch", "cron": "0 * * * *"}
+  ],
+  "notes": "UTC 08:00 ~ America/Denver early morning; adjust if desired."
+}
