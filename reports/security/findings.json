@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "id": "DEP-1",
+      "type": "deps_patch",
+      "files": [
+        "deps/node_base.txt"
+      ],
+      "risk": "low",
+      "tests": [
+        "build image",
+        "smoke tests"
+      ]
+    }
+  ]
+}

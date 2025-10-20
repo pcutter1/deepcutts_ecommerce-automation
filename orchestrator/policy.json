@@ -1,6 +1,6 @@
 {
-  "self_merge_paths": ["tests/", "docs/", "reports/", "scripts/audit/", "deps/"],
-  "restricted_paths": ["src/", "infra/", "db/", "prod_config/**"],
+  "self_merge_paths": ["tests/*", "tests/**/*", "docs/*", "docs/**/*", "reports/*", "reports/**/*", "scripts/audit/*", "scripts/audit/**/*", "deps/*", "deps/**/*"],
+  "restricted_paths": ["src/*", "src/**/*", "infra/*", "infra/**/*", "db/*", "db/**/*", "prod_config/*", "prod_config/**/*"],
   "prod_deploy_requires": ["ticket", "2_approvals", "signed_intent", "change_record"],
   "deny_filetypes": [".pem", ".key", ".kubeconfig"],
   "must_include_in_pr": ["tests_added_or_updated", "rollback_section", "risk_label", "changelog_entry"]

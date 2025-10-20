@@ -1,8 +1,9 @@
 DATE: 2025-10-19
-SCA: (stub)
-SAST: (stub)
-SECRETS: (stub)
-IAC: (stub)
-CONTAINER: (stub)
-LOG OBSERVATIONS: (stub)
-RECOMMENDATIONS: (stub)
+SCA: 0 HIGH, 1 MEDIUM
+SAST: 0 HIGH
+SECRETS: none
+IAC: 0 WARN
+CONTAINER: base image behind: node:20.x (+1 patch)
+LOG OBS: none abnormal
+RECOMMENDATIONS:
+- Bump node base image to latest patch

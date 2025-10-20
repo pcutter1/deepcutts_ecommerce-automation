@@ -1,0 +1,13 @@
+{
+  "title": "Bump node base image patch",
+  "files": [
+    "deps/node_base.txt"
+  ],
+  "status": "draft",
+  "requires": [
+    "tests_added_or_updated",
+    "rollback_section",
+    "risk_label",
+    "changelog_entry"
+  ]
+}
