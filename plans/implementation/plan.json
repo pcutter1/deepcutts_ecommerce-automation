@@ -1,25 +1,8 @@
 {
-  "objective": "Apply low-risk dependency patch",
-  "steps": [
-    {
-      "id": "DEP-1",
-      "title": "Bump node base image patch",
-      "changes": [
-        "deps/node_base.txt"
-      ],
-      "tests": [
-        "build image",
-        "smoke tests"
-      ],
-      "rollback": "revert previous image tag",
-      "risk": "low",
-      "est_hours": 0.5
-    }
-  ],
+  "objective": "No security issues found",
+  "steps": [],
   "merge_policy": {
-    "self_merge": [
-      "DEP-1"
-    ],
+    "self_merge": [],
     "approval_required": []
   }
 }

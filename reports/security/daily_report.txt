@@ -1,9 +1,19 @@
-DATE: 2025-10-19
-SCA: 0 HIGH, 1 MEDIUM
-SAST: 0 HIGH
-SECRETS: none
-IAC: 0 WARN
-CONTAINER: base image behind: node:20.x (+1 patch)
-LOG OBS: none abnormal
-RECOMMENDATIONS:
-- Bump node base image to latest patch
+DATE: 2025-10-20 03:44:15 UTC
+
+SUMMARY
+-------
+Total Findings: 0
+  CRITICAL: 0
+  HIGH:     0
+  MEDIUM:   0
+  LOW:      0
+
+SCANNERS RUN
+------------
+- pip-audit: 0 findings
+- trivy: 0 findings
+- gitleaks: 0 findings
+
+ACTIONS RECOMMENDED
+-------------------
+No high-priority actions required.

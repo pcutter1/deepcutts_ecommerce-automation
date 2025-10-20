@@ -1,0 +1,45 @@
+{
+  "target_repos": [
+    {
+      "name": "deepcutts_ecommerce-automation",
+      "path": ".",
+      "enabled": true,
+      "scanners": ["pip-audit", "trivy", "gitleaks"]
+    },
+    {
+      "name": "deepcutts_backend",
+      "path": "../deepcutts_backend",
+      "enabled": false,
+      "scanners": ["pip-audit", "trivy", "gitleaks"],
+      "notes": "Enable when ready to target main backend repo"
+    }
+  ],
+  "github": {
+    "enabled": false,
+    "app_id": null,
+    "installation_id": null,
+    "private_key_path": null,
+    "notes": "Set enabled=true after creating GitHub App"
+  },
+  "scanners": {
+    "pip-audit": {
+      "enabled": true,
+      "timeout_seconds": 300
+    },
+    "trivy": {
+      "enabled": true,
+      "timeout_seconds": 600,
+      "severity_threshold": "MEDIUM"
+    },
+    "gitleaks": {
+      "enabled": true,
+      "timeout_seconds": 300
+    }
+  },
+  "orchestrator": {
+    "dry_run": false,
+    "log_level": "INFO",
+    "max_prs_per_run": 3,
+    "notes": "Set dry_run=true to test without creating actual PRs"
+  }
+}

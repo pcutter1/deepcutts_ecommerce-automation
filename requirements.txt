@@ -1,0 +1,10 @@
+# Security scanners
+pip-audit>=2.6.0
+
+# Note: trivy and gitleaks are system binaries, install separately:
+# macOS: brew install trivy gitleaks
+# Linux: see docs/runbooks/security_scanning.md
+
+# Python dependencies (if any are added later)
+# requests>=2.31.0
+# PyGithub>=2.1.0

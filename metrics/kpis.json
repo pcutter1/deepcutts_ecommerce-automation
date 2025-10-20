@@ -1,8 +1,10 @@
 {
-  "main_green_rate_30d": 0.0,
-  "coverage_trend_14d": 0.0,
-  "critical_cve_ttpr_days": null,
-  "flake_rate": null,
-  "p95_ci_minutes": null,
-  "autonomy_ratio": 0.0
+  "last_updated": "2025-10-20T03:44:15.564870Z",
+  "total_runs": 1,
+  "runs_last_30d": 1,
+  "autonomy_ratio": 0.0,
+  "avg_findings_per_run": 0.0,
+  "critical_findings_trend_14d": "stable",
+  "avg_run_duration_seconds": 0.01,
+  "prs_created_30d": 0
 }

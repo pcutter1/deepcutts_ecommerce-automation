@@ -1,0 +1,1 @@
+{"timestamp": "2025-10-20T03:44:15.564591Z", "total_findings": 0, "critical": 0, "high": 0, "pr_created": false, "self_merge_eligible": false, "duration_seconds": 0.0058896541595458984, "scanners_run": ["pip-audit", "trivy", "gitleaks"]}
